@@ -1,6 +1,11 @@
-Feature: Click buttons on dynamic buttons page
+
+Feature: Click buttons and verify message
 
   Scenario: Click buttons and verify message
-    Given I navigate to the dynamic buttons page
-    When I click all buttons
-    Then I should see the message 'All Buttons Clicked!'
+    Given open the website
+    Then Click on "start" button and wait
+    And Click on "One" button and wait
+    Then Click on "Two" button and wait
+    And Click on "Three" button and wait
+    Then Verify "All Buttons Clicked" message Displayed
+
