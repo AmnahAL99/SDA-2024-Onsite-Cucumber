@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+    <configuration>
+
+        <theme>standard</theme
+        >
+        <!-- enables timeline -->
+
+        <enableTimeline>true</enableTimeline>
+
+        <encoding>UTF
+        -8</encoding >
+
+        <protocol>https</protocol>
+
+        <documentTitle>My Spark Report</documentTitle>
+
+        <reportName>Build Test Report</reportName>
+
+        <!-- custom javascript -->
+
+        <scripts>
+        <![CDATA[ $(document).ready(function() { }); ]]>
+        </scripts>
+        <!-- custom styles -->
+
+        <styles
+        >
+        <![CDATA[ ]]>
+        </styles
+        >
+        </configuration
+        >
+        </extentreports>

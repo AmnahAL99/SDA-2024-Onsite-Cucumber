@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.17" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="name of  the feature file" name="The name of second scenario" time="0.006">
+<system-out><![CDATA[
+Given I open the browser....................................................passed
+And I am on the google homepage.............................................passed
+When I search for "linkedin" on google......................................passed
+Then I should see "linkedin" on the results.................................passed
+Then I close the browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
